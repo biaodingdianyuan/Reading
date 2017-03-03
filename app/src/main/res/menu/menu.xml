@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<group
+    android:checkableBehavior="single"
+    >
+    <item
+        android:id="@+id/home"
+        android:title="日报"
+        android:icon="@mipmap/ic_home"></item>
+    <item
+        android:id="@+id/science"
+        android:title="科学"
+        android:icon="@mipmap/ic_science"> </item>
+    <item
+        android:id="@+id/news"
+        android:title="新闻"
+        android:icon="@mipmap/ic_news"/>
+    <item
+        android:id="@+id/read"
+        android:title="阅读"
+        android:icon="@mipmap/ic_reading"/>
+    <item
+        android:id="@+id/collect"
+        android:title="收藏"
+        android:icon="@mipmap/ic_collect_grey"/>
+</group>
+    <item android:title="闲暇" >
+        <menu>
+            <item
+                android:id="@+id/night"
+                android:title="夜间模式"
+
+                android:icon="@mipmap/ic_night"/>
+            <item
+                android:id="@+id/setting"
+                android:title="设置"
+                android:icon="@mipmap/ic_setting"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="关于我们"
+                android:icon="@mipmap/ic_about"/>
+        </menu>
+
+    </item>
+</menu>

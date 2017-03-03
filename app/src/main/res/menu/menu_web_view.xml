@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.text.WebViewActivity">
+    <item
+
+        app:showAsAction="ifRoom"
+        android:id="@+id/collect_web"
+        android:icon="@mipmap/ic_star_white"></item>
+    <item
+        android:id="@+id/share_wed"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_share"> </item>
+</menu>
